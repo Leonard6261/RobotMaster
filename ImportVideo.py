@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 %matplotlib inline
-vc=cv2.VideoCapture("/demo.mp4")
+vc=cv2.VideoCapture("\demo.mp4")
 
 while open:
     ret,frame=vc.read()
