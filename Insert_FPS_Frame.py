@@ -1,6 +1,6 @@
 import time
 import cv2
-cap = cv2.VideoCapture("C:/Users/MLoong/Desktop/baby.mp4")  # 读取文件
+cap = cv2.VideoCapture("/demo.mp4")  # 读取文件
 start_time = time.time()
 counter = 0
 coter=0
