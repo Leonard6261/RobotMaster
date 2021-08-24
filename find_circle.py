@@ -11,7 +11,7 @@ def detect_circles_demo(image):
         cv.circle(image, (i[0], i[1]), 2, (0, 0, 255), 2)  #画圆心
     cv.imshow("circles", image)
 
-src = cv.imread("\test.jpg")
+src = cv.imread("/test.jpg")
 cv.namedWindow('input_image', cv.WINDOW_NORMAL) #设置为WINDOW_NORMAL可以任意缩放
 cv.imshow('input_image', src)
 detect_circles_demo(src)
